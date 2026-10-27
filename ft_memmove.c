@@ -6,12 +6,12 @@
 /*   By: fachouar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 14:00:06 by fachouar          #+#    #+#             */
-/*   Updated: 2026/10/17 18:37:22 by fachouar         ###   ########.fr       */
+/*   Updated: 2026/10/27 17:58:50 by fachouar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stddef.h>
 
-void	fill_dest(unsigned char *dest, unsigned char *src, size_t n)
+static void	fill_dest(unsigned char *dest, unsigned char *src, size_t n)
 {
 	size_t	i;
 

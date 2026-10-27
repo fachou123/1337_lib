@@ -11,6 +11,8 @@ SRC = ft_atoi.c \
       ft_bzero.c \
       ft_lstadd_front.c \
       ft_memmove.c \
+      ft_memcmp.c\
+      ft_memchr.c\
       ft_striteri.c \
       ft_strtrim.c \
       ft_calloc.c \
