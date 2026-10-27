@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: fachouar <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/19 22:49:41 by fachouar          #+#    #+#             */
-/*   Updated: 2026/10/19 23:13:31 by fachouar         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_strrchr.c                                      :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: fachouar <marvin@42.fr>                   #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/19 22:49:41 by fachouar         #+#    #+#              */
+/*   Updated: 2026/10/27 16:52:08 by fachouar        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,22 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int			i;
-	const char	*p;
+	int				i;
+	const char		*p;
+	unsigned char	uc;
 
 	i = 0;
 	p = NULL;
+	uc = (unsigned char) c;
 	while (s[i])
 	{
-		if (s[i] == (unsigned char)c)
+		if (s[i] == uc)
 			p = &s[i];
 		i++;
 	}
-	if (c == '\0')
-		return ((char *)&s[i]);
+	if (uc == '\0')
+		return ((char *) & s[i]);
 	if (!p)
 		return (NULL);
-	return ((char *)p);
+	return ((char *) p);
 }

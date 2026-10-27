@@ -6,7 +6,7 @@
 /*   By: fachouar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 23:13:21 by fachouar          #+#    #+#             */
-/*   Updated: 2026/10/23 23:18:34 by fachouar         ###   ########.fr       */
+/*   Updated: 2026/10/27 15:15:24 by fachouar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -25,7 +25,7 @@ static int	num_len(long n)
 	return (i);
 }
 
-static void	fill_ptr(char *ptr, int num, int num_l, int n)
+static void	fill_ptr(char *ptr, long num, int num_l, int n)
 {
 	int	i;
 
