@@ -6,11 +6,11 @@
 /*   By: fachouar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 20:05:52 by fachouar          #+#    #+#             */
-/*   Updated: 2026/10/20 21:00:48 by fachouar         ###   ########.fr       */
+/*   Updated: 2026/10/27 17:55:20 by fachouar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	is_white_esp(const char *nptr)
+static int	is_white_esp(const char *nptr)
 {
 	int	i;
 

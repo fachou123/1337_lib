@@ -6,7 +6,7 @@
 /*   By: fachouar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 16:42:18 by fachouar          #+#    #+#             */
-/*   Updated: 2026/10/27 16:43:01 by fachouar         ###   ########.fr       */
+/*   Updated: 2026/10/27 17:54:46 by fachouar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -32,7 +32,6 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 
 int		ft_atoi(const char *nptr);
-int		is_white_esp(const char *nptr);
 char	*ft_itoa(int n);
 
 void	ft_bzero(void *s, size_t n);
